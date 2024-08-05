@@ -1,23 +1,28 @@
-.footer{
+
+.footer {
     margin: 50px 170px;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.footer-top{
+
+.footer-top {
     display: flex;
     justify-content: space-between;
 }
-.footer-top-left p{
+
+.footer-top-left p {
     font-size: 20px;
     max-width: 400px;
 }
-.footer-top-right{
+
+.footer-top-right {
     display: flex;
     align-items: center;
     gap: 35px;
 }
-.footer-email-input{
+
+.footer-email-input {
     display: flex;
     gap: 30px;
     padding: 20px 30px;
@@ -25,7 +30,8 @@
     background: #32323B;
     padding-right: 80px;
 }
-.footer-email-input input{
+
+.footer-email-input input {
     outline: none;
     border: none;
     background: transparent;
@@ -33,29 +39,44 @@
     font-family: Outfit;
     font-size: 18px;
 }
-.footer-subscribe{
+
+.footer-subscribe {
     font-size: 20px;
-    padding:22px 50px;
+    padding: 22px 50px;
     border-radius: 50px;
     background: linear-gradient(264deg, #DF8908 0%, #B415FF 100%);
     cursor: pointer;
     transition: 0.3s;
 }
-.footer-bootom{
+
+.footer-bottom {
     display: flex;
     justify-content: space-between;
     font-size: 18px;
+    align-items: center;
+    /* Ensure vertical alignment */
 }
-.footer-bottom-right{
-    display: flex;
-    gap: 50px;
-    margin-bottom: 50px;
-}
-.footer-email-input:hover{
-border: 2px solid white;
 
+.footer-bottom-left {
+    margin-right: 20px;
+    /* Space between copyright and the links */
 }
-.footer-subscribe:hover{
+
+.footer-bottom-right {
+    display: flex;
+    gap: 30px;
+    /* Adjust gap between links */
+    margin-bottom: 50px;
+    /* Ensure it aligns properly with other content */
+    align-items: center;
+    /* Center items vertically */
+}
+
+.footer-email-input:hover {
+    border: 2px solid white;
+}
+
+.footer-subscribe:hover {
     transform: scale(1.1);
     transition: 0.3s;
 }
